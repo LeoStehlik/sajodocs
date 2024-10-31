@@ -1,8 +1,8 @@
 # Frequently Asked Questions
 
-## TurtleCoind / zedwallet Issues<a name="tcoind-zedwallet-issues"></a>
+## DeroGoldd / zedwallet Issues<a name="tcoind-zedwallet-issues"></a>
 
-#### Q: I'm seeing an error in TurtleCoind `Proof of work too weak for block...` and the syncing stopped.
+#### Q: I'm seeing an error in DeroGoldd `Proof of work too weak for block...` and the syncing stopped.
 
 ??? faq "Answer"
     This occurs because of the blockchain forking, generally when one mining pool has a very large hashrate.
@@ -24,12 +24,12 @@
 #### Q: How can I re-sync the blockchain?
 
 ??? faq "Answer"
-    Close any TurtleCoin-related software, then go to `%APPDATA%`, and delete the `TurtleCoin` folder.  
-    Reopen TurtleCoind/the GUI wallet and let it re-sync.
+    Close any DeroGold-related software, then go to `%APPDATA%`, and delete the `DeroGold` folder.  
+    Reopen DeroGold/the GUI wallet and let it re-sync.
 
     Alternatively, check [this guide](../guides/wallets/Using-checkpoints) for instructions on how to use checkpoints for a quicker sync, or if you're using the GUI wallets, [this one](../guides/wallets/Using-remote-nodes)
 
-#### Q: When I open TurtleCoind on a Mac, I get an error `Illegal instruction: 4`. How can I fix it?
+#### Q: When I open DeroGoldd on a Mac, I get an error `Illegal instruction: 4`. How can I fix it?
 
 ??? faq "Answer"
     This is a known issue with older macs or un-updated macs.
@@ -47,44 +47,44 @@
     If this fails, try instead following the instructions to [compile manually](https://github.com/turtlecoin/turtlecoin#apple)
 
 
-#### Q: I've opened the wallet, and I'm getting lots of red messages like "It looks like TurtleCoind isn't open!"...
+#### Q: I've opened the wallet, and I'm getting lots of red messages like "It looks like DeroGoldd isn't open!"...
 
 ```
-It looks like TurtleCoind isn't open!
+It looks like DeroGoldd isn't open!
 
-Ensure TurtleCoind is open and has finished initializing.
-If it's still not working, try restarting TurtleCoind. The daemon sometimes gets
+Ensure DeroGoldd is open and has finished initializing.
+If it's still not working, try restarting DeroGoldd. The daemon sometimes gets
 stuck.
-Alternatively, perhaps TurtleCoind can't communicate with any peers.
+Alternatively, perhaps DeroGoldd can't communicate with any peers.
 
 The wallet can't function until it can communicate with the network.
 ```
 
 ??? faq "Answer"
-    You need to also open up `TurtleCoind.exe` and let it sync. TurtleCoind is your connection to the network, and needs to be open and synced whenever you want to use your wallet.
+    You need to also open up `DeroGoldd.exe` and let it sync. DeroGoldd is your connection to the network, and needs to be open and synced whenever you want to use your wallet.
 
-#### Q: I've opened the wallet, and I'm getting lots of messages like "Your TurtleCoind isn't fully synced yet!"..
+#### Q: I've opened the wallet, and I'm getting lots of messages like "Your DeroGoldd isn't fully synced yet!"..
 
 ```
 Until you are fully synced, you won't be able to send transactions, and your balance may be missing or incorrect!
 ```
 
 ??? faq "Answer"
-    Your daemon hasn't finished syncing yet. Keep zedwallet open, and wait until you are 0 days behind the current block, and for the daemon to print out a green message saying `Successfully synchronized with the TurtleCoin Network.`  
+    Your daemon hasn't finished syncing yet. Keep zedwallet open, and wait until you are 0 days behind the current block, and for the daemon to print out a green message saying `Successfully synchronized with the DeroGold Network.`  
     You can also type `status` in the daemon and press enter to see the current height it's at.
 
 #### Q: I think I should have more money in my balance than it is showing, what should I do?
 
 ??? faq "Answer"
     Re-sync your daemon from scratch(see [here](#q-how-can-i-re-sync-the-blockchain)), sync [using checkpoints](../guides/wallets/Using-checkpoints) or use a [remote node](../guides/wallets/Using-remote-nodes)) if you're using the GUI wallet.
-    If it still doesn't work, then [update](latest.turtlecoin.lol) your wallet!
+    If it still doesn't work, then [update](https://derogold.com/downloads.html) your wallet!
 
 #### Q: I've tried resetting, but it isn't working. What should I do?
 
 ??? faq "Answer"
-    * In zedwallet, type `export_keys`, and save the view and spend key somewhere safe in case something goes wrong, if you haven't already.
+    * In degwallet, type `export_keys`, and save the view and spend key somewhere safe in case something goes wrong, if you haven't already.
 
-    *  Then, close and reopen zedwallet and TurtleCoind.
+    *  Then, close and reopen zedwallet and DeroGoldd.
     *  Type `reset` in zedwallet after reopening your wallet file.
     *  It should start resetting your wallet, but the progress might not be immediately obvious - wait a while, and it should start counting up the blocks and printing out your transactions as it gets to them.
 
@@ -104,15 +104,15 @@ Until you are fully synced, you won't be able to send transactions, and your bal
     
     Your wallet is now being optimized. When it finishes, your transaction should be able to send
 
-#### Q: How do I send TRTL?
+#### Q: How do I send DEGO?
 
 ??? faq "Answer"
-    You can check [this out](../guides/wallets/Using-zedwallet#tx-trtl) for steps on how to send TRTL to someone.
+    You can check [this out](../guides/wallets/Using-zedwallet#tx-trtl) for steps on how to send DEGO to someone.
 
 #### Q: How do I send money to exchanges / use payment ID?
 
 ??? faq "Answer"
-    You can check [this out](../guides/wallets/Using-zedwallet#tx-trtl-p-id) for steps on how to send TRTL with the payment ID.
+    You can check [this out](../guides/wallets/Using-zedwallet#tx-trtl-p-id) for steps on how to send DEGO with the payment ID.
 
 #### Q: What is mixin?
 
@@ -123,12 +123,12 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 #### Q: How can I view my balance?
 
 ??? faq "Answer"
-    If `TurtleCoind.exe` is fully synced, in zedwallet, simply type `balance`.
+    If `DeroGoldd.exe` is fully synced, in zedwallet, simply type `balance`.
 
-#### Q: How long does it take to sync TurtleCoind.exe?
+#### Q: How long does it take to sync DeroGoldd.exe?
 
 ??? faq "Answer"
-    Currently it takes a couple of hours. This number will increase as more people use TRTL and the blockchain gets larger. If you'd like to speed up the process, check out the question below.
+    Currently it takes a couple of hours. This number will increase as more people use DEGO and the blockchain gets larger. If you'd like to speed up the process, check out the question below.
 
 #### Q: Can I speed up the syncing of the blockchain?
 
@@ -171,7 +171,7 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 #### Q: I've started mining, how can I view my stats?
 
 ??? faq "Answer"
-    Visit your pool's homepage. There should be a spot for you to put in your TRTL address, and you can then view your hashrate, pending balance, payouts, and more.
+    Visit your pool's homepage. There should be a spot for you to put in your DEGO address, and you can then view your hashrate, pending balance, payouts, and more.
 
 #### Q: Why is the hashrate on the pool website different to what is shown in my miner?
 
@@ -263,24 +263,24 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 #### Q: What is the miner executable / why isn't it working?
 
 ??? faq "Answer"
-    This is a solo miner, which is CPU only. This means to gain any TRTL, you have to find a block by yourself, which unless you have many powerful CPUs, is very unlikely.   
+    This is a solo miner, which is CPU only. This means to gain any DEGO, you have to find a block by yourself, which unless you have many powerful CPUs, is very unlikely.   
 
     We strongly recommend using a pool, and a miner such as XMR-Stak or XMRig.   
 
     Nevertheless, if you want to try it out, open a command prompt in the same directory, and run
 
     ```
-    ./miner --address TRTL...
+    ./miner --address DEGO...
     ```
 
-    replacing `TRTL...` with your full TRTL address.
+    replacing `DEGO...` with your full DEGO address.
 
-    You need to have `TurtleCoind` open and synced to use this miner, unlike conventional miners, where the pool hosts the daemon.
+    You need to have `DeroGoldd` open and synced to use this miner, unlike conventional miners, where the pool hosts the daemon.
 
-#### Q: Is there a calculator to see how much TRTL I'll mine per day?
+#### Q: Is there a calculator to see how much DEGO I'll mine per day?
 
 ??? faq "Answer"
-    Your pool's homepage should have one - enter your hashrate and it'll give an estimate of how much TRTL you'll mine per day.  
+    Your pool's homepage should have one - enter your hashrate and it'll give an estimate of how much DEGO you'll mine per day.  
     If there isn't, you can check one [here](https://turtle.land/#pools).
 
 ### XMR-Stak Issues
@@ -325,7 +325,7 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 
         ```
         {"pool_address" : "eu.turtlepool.space:3333",
-        "wallet_address" : "TRTLv2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW",
+        "wallet_address" : "DEGOv2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW",
         "pool_password" : "x",
         "use_nicehash" : false,
         "use_tls" : false,
@@ -333,7 +333,7 @@ Until you are fully synced, you won't be able to send transactions, and your bal
         "pool_weight" : 10 },
         ```
 
-      Your wallet address is the address starting with `TRTL`, not your wallet filename.
+      Your wallet address is the address starting with `DEGO`, not your wallet filename.
 
       This error can also occur if the pool is having issues - try another pool and see if the error continues.
 
@@ -388,7 +388,7 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 
     You see above/elsewhere wallet files are being created via the wallet software, these files might be stored unencrypted, if unencrypted then the keys can be read by malicious software and balances of those wallets, transferred.
 
-    Thus to protect against that scenario you could transfer any TRTL balance to one of these cold storage addresses. Please remember to keep secure/secret backups of your keys. If you lose the keys you lose any balance that was transferred to that wallet.
+    Thus to protect against that scenario you could transfer any DEGO balance to one of these cold storage addresses. Please remember to keep secure/secret backups of your keys. If you lose the keys you lose any balance that was transferred to that wallet.
 
 #### Q: Can I make a paper wallet?
 
@@ -408,28 +408,28 @@ Until you are fully synced, you won't be able to send transactions, and your bal
     It should be possible in the future to allow users to give away just their Private View Key to view transactions, but this hasn't been implemented by anyone so far, and would allow that website to see every transaction that you make.
 
 ## Other
-#### Q: Why does TRTL have such a high amount of tokens/small amount of decimal places?
+#### Q: Why does DEGO have such a high amount of tokens/small amount of decimal places?
 
 ??? faq "Answer"
     Read a great post about the justification for it [here](https://medium.com/@turtlecoin/one-trillion-turtles-coin-supply-and-unit-economics-5bfbea0aa1f1).
 
-#### Q: How can I get some TRTL?
+#### Q: How can I get some DEGO?
 
 ??? faq "Answer"
-    There are multiple ways to acquire TRTL, for example:
+    There are multiple ways to acquire DEGO, for example:
 
     * Mining - see [here](../guides/mining/Mining)
-    * Buying - TRTL is currently available on these exchanges: [TradeOgre](https://tradeogre.com/exchange/BTC-TRTL) and [TradeSatoshi](https://tradesatoshi.com/Exchange/?market=TRTL_BTC)
-    * Bounties - Bounties for developing TRTL software, spreading the word of TRTL, and many other things are often posted in the #bounties channel on [Discord][Discord_Link]. Check the pinned messages for current bounties.
+    * Buying - DEGO is currently available on these exchanges: [TradeOgre](https://tradeogre.com/exchange/BTC-DEGO) and [TradeSatoshi](https://tradesatoshi.com/Exchange/?market=DEGO_BTC)
+    * Bounties - Bounties for developing DEGO software, spreading the word of DEGO, and many other things are often posted in the #bounties channel on [Discord][Discord_Link]. Check the pinned messages for current bounties.
     * Tips - Turtles with often tip each other, especially if you make spicy memes in the `#memes` channel
     * Rain - Good active Turtles get rained on, check out what the [RainBorg](../RainBorg-Wat-Dat) is to see how to use it.
     * Faucet - Head over to the faucets-
-      * [madk's faucet](https://faucet.trtl.me/) - 10 TRTL, thrice a day
-      * [polar-it's faucet](https://turtlecoin-faucet.xhub.cloud/) - 20 TRTL, every 120 minutes
-      * [fipsi's faucet](https://trtlfaucet.de.cool/) - 100 TRTL, after every 500 turtles use it
+      * [madk's faucet](https://faucet.trtl.me/) - 10 DEGO, thrice a day
+      * [polar-it's faucet](https://turtlecoin-faucet.xhub.cloud/) - 20 DEGO, every 120 minutes
+      * [fipsi's faucet](https://trtlfaucet.de.cool/) - 100 DEGO, after every 500 turtles use it
     
-      and enter your TRTL address.  
-      The amount you can receive is limited to share the TRTL for all. Thanks to @madk, @polar-it and @fipsi for creating them.
+      and enter your DEGO address.  
+      The amount you can receive is limited to share the DEGO for all. Thanks to @madk, @polar-it and @fipsi for creating them.
 
 #### Q: Is there a web wallet?
 

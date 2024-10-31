@@ -1,6 +1,7 @@
 # Contributors
 
-Huge thank you to everyone here, they've made major commits to the wiki and helped make it what it is today!
+Huge thank you to @Sajo8 who created the original version of this Wiki for Turtlecoin. He made it a great base for what it the DeroGold WIKI today!
+Other TurtleCoin contributors: 
 
 * @ZedPea
 * @ar-x
@@ -10,4 +11,4 @@ Huge thank you to everyone here, they've made major commits to the wiki and help
 
 And, of course-
 
-* the TurtleCoin Community
+* the DeroGold Community

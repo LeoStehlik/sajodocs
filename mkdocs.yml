@@ -1,15 +1,15 @@
 # proj info
-site_name: 'TurtleCoin Wiki'
-site_description: 'Wiki for TurtleCoin'
-site_author: 'TurtleCoin'
-site_url: https://docs.turtlecoin.lol/
+site_name: 'DeroGold Wiki'
+site_description: 'Wiki for DeroGold'
+site_author: 'DeroGold Developers' 
+site_url: https://docs.derogold.online/
 
 # repo
 repo_name: 'turtlecoin/sajodocs'
 repo_url: 'https://github.com/turtlecoin/sajodocs'
 
 # copyright
-copyright: 'Copyright 2019 TurtleCoin'
+copyright: 'Copyright 2024 DeroGold'
 
 # config
 theme:
@@ -21,8 +21,8 @@ theme:
   logo: 'images/logo.png'
   favicon: 'images/fav.png'
   palette:
-    primary: 'green'
-    accent: 'light green'
+    primary: 'yellow'
+    accent: 'light yellow'
   language: 'en'
   direction: 'ltr'
   feature:

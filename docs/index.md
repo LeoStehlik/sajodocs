@@ -1,25 +1,31 @@
-![TurtleCoin Logo](images/turtlecoin_logo.png)
+![DeroGold Logo](images/derogold_logo.png)
 
-# :turtle: :turtle: :turtle: Welcome to the TurtleCoin Wiki :turtle: :turtle: :turtle:
+# Welcome to the DeroGold Wiki 
 
-This wiki is the main source of documentation for newcomers to the TurtleCoin project. If this is your first time hearing about TurtleCoin, check out the [TurtleCoin website](https://turtlecoin.lol/).
+This wiki is the main source of documentation for newcomers to the DeroGold project. If this is your first time hearing about DeroGold, check out the [DeroGold website](https://derogold.com/).
 
-## What is TurtleCoin?
+## What is DeroGold?
 
-TurtleCoin is a fast, easy and private cryptocurrency which allows you to send money to friends and businesses.
+DeroGold is a digital assets project focused on preserving our life environment here on Earth. 
 
-One of TurtleCoin's main goals is to make things as simple and as accessible as possible for everyday people, creating a cryptocurrency which is inviting, fun and friendly.
+DeroGold aspires to solve problems such as circular economy in recycling, re-use of waste materials and how we can drive positive behaviour by rewarding people with digital assets for recycling. And build sustainable, carbon-negative buildings using Ferrock.
+
+For simplicity, we say we are the digital "Nectar Card for Recycling".
+
+However, we are much more than that. We run our own privacy digital asset that allows people and organisations to send and receive our native digital coins called DEGO.
 
 ## Quick Navigation
 
-| **About TurtleCoin** | **Wallets** | **Mining** | **Contributing** |
+| **About DeroGold** | **Wallets** | **Mining** | **Contributing** |
 |:----------------------:|:-------------:|:------------:|:------------------:|
 | ![Logo](images/table_logo.png) | ![Wallets](images/table_wallet.png) | ![Mining](images/table_mine.png) | ![Dev](images/table_dev.png) |
-| [About TurtleCoin](about/About-TurtleCoin) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining TurtleCoin](Getting-Started#mining) | [Contributing to TurtleCoin](about/Contributing) |
-| Learn more about TurtleCoin and the community | A guide on setting up a TurtleCoin wallet to start receiving some turtles! | A step-by-step guide to start mining TurtleCoin | Information on contributing to TurtleCoin |
+| [About DeroGold](about/About-TurtleCoin) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining DeroGold](Getting-Started#mining) | [Contributing to DeroGold](about/Contributing) |
+| Learn more about DeroGold and the community | A guide on setting up a DeroGold wallet to start receiving some DEGO! | A step-by-step guide to start mining DeroGold | Information on contributing to DeroGold
 
 ## Have Questions or Need Help?
 
-Check out our [Discord](http://chat.turtlecoin.lol/) or [subreddit](https://www.reddit.com/r/TRTL/) to get in touch.
+Check out our [Discord](https://discord.com/invite/j2aSNFn) to get in touch.
+
+Other than that, check and subscribe to our [Youtube](https://www.youtube.com/@DeroGold/videos) DeroGold vlog.
 
 
