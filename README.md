@@ -1,18 +1,18 @@
 # sajodocs
 
-The official TurtleCoin Docs! Check it out here:
+The official DeroGold Docs! Check it out here:
 
-https://docs.turtlecoin.lol
+https://docs.derogold.online
 
 ## Contributing Guidelines
 
 You must follow [strict markdown](https://daringfireball.net/projects/markdown/), not GFM. Important points include:
 
 * links must start with `../`, even if they're in the same directory  
-  ex -> `(../Rainborg-Wat-Dat)` instead of `(Rainborg-Wat-Dat.md)`
+  ex -> `(../TipBot-Wat-Dat)` instead of `(TipBot-Wat-Dat.md)`
 
 * relative links without the `.md` extension  
-  ex-> `(Rainborg-Wat-Dat)` instead of `(Rainborg-Wat-Dat.md)`
+  ex-> `(TipBot-Wat-Dat)` instead of `(TipBot-Wat-Dat.md)`
 
 * Links are *case sensitive*  
   Links to files in `mkdocs.yml` must *perfectly match* the casing of the actual files, and the links to these files from other places must *perfectly match* the casing in `mkdocs.yml`.
@@ -108,13 +108,13 @@ If:
 
   #### PR -> Build -> Merge -> Publish
 
-  Whenever a PR is made, Netlify automatically builds it and serves a preview. In case the build doesn't pass(red X), then add a ninja commit to fix it.
+  Whenever a PR is made, the site will build automatically and serves a preview. In case the build doesn't pass(red X), then add a ninja commit to fix it.
   
   #### Testing the site locally
   
   Testing the site locally is very easy!
   
-  1. Install mkdocs
+  1. Install mkdocs. This is ancient-old, so for now good start is to go with the old version stated below to get the docs working.
   ```
   pip install mkdocs && mkdocs --version
   # mkdocs, version 0.17.1
@@ -122,9 +122,9 @@ If:
   Material requires MkDocs >= 0.17.1.
   (You will need to install [Python](https://www.python.org/) if you don't already have it)
   
-  2. Install mkdocs-material (the theme)
+  2. Install mkdocs-material (the theme). We were successfull to get the docs work with mkdocs-material version 4.6.1. We will see later if we can bump those ancient-old versions.
   ```
-  pip install mkdocs-material
+  pip install mkdocs-material==4.6.1
   ```
   
   3. CD to where your edited version of sajodocs is located, and run the build command.
@@ -139,26 +139,4 @@ If:
 For more rules on the markdown format to contributie, compare these 2 files from the existing wiki to this repo, and see how they shape up. These point out all differences present.
 
 ---
-
-#### Guide 1
-
-**existing wiki**
-
-https://raw.githubusercontent.com/turtlecoin/turtlecoin-docs/master/guides/Bootstrapping-the-Blockchain.md
-
-**this wiki**
-
-https://raw.githubusercontent.com/turtlecoin/sajodocs/master/docs/guides/Bootstrapping-the-Blockchain.md
-
----
-
-#### Guide 2
-
-**existing wiki**
-
-https://raw.githubusercontent.com/turtlecoin/turtlecoin-docs/master/guides/mining/XMR-Stak-Linux-Guide.md
-
-**this wiki**
-
-https://raw.githubusercontent.com/turtlecoin/sajodocs/master/docs/guides/mining/XMR-Stak-Linux-Guide.md
 
