@@ -1,6 +1,6 @@
 # Technical Data
 
-Name: TurtleCoin  
+Name: DeroGold  
 
 Algorithm: [CryptoNote](https://cryptonote.org)
 
@@ -9,12 +9,12 @@ Algorithm: [CryptoNote](https://cryptonote.org)
 * Elastic Blocks
 * Fair Mining
 
-Block time: `30` second target block time - made by and for miners.  
+Block time: `300` second target block time - made by and for miners.  
 
-Decimal places: Two decimal places, like USD  
+Decimal places: Two decimal places, just like FIAT currencies such as USD, EUR, GBP...
 
-Supply Cap: `1,000,000,000,000`  
+Supply Cap: `100,000,000,000,000`  
 
-Address Prefix: `TRTL`   
+Address Prefix: `dg`   
 
-Currency Code: `TRTL`
+Currency Code: `DEGO`

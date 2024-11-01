@@ -5,8 +5,8 @@ site_author: 'DeroGold Developers'
 site_url: https://docs.derogold.online/
 
 # repo
-repo_name: 'turtlecoin/sajodocs'
-repo_url: 'https://github.com/turtlecoin/sajodocs'
+repo_name: 'derogold/sajodocs'
+repo_url: 'https://github.com/LeoStehlik/sajodocs'
 
 # copyright
 copyright: 'Copyright 2024 DeroGold'
@@ -37,7 +37,7 @@ extra:
     language: 'en'
   social:
     - type: 'github'
-      link: 'https://github.com/turtlecoin'
+      link: 'https://github.com/derogold'
 
 # extensions
 markdown_extensions:
@@ -72,7 +72,7 @@ nav:
       - Getting Started: Getting-Started.md
       - Contributors: Contributors.md
     - About:
-      - About TurtleCoin: about/About-TurtleCoin.md
+      - About DeroGold: about/About-DeroGold.md
       - Background and History: about/Background-and-History.md
       - Our Community: about/Community.md
       - Contributing: about/Contributing.md

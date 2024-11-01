@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-## DeroGoldd / zedwallet Issues<a name="tcoind-zedwallet-issues"></a>
+## DeroGoldd / degwallet Issues<a name="tcoind-zedwallet-issues"></a>
 
 #### Q: I'm seeing an error in DeroGoldd `Proof of work too weak for block...` and the syncing stopped.
 
@@ -70,7 +70,7 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 ```
 
 ??? faq "Answer"
-    Your daemon hasn't finished syncing yet. Keep zedwallet open, and wait until you are 0 days behind the current block, and for the daemon to print out a green message saying `Successfully synchronized with the DeroGold Network.`  
+    Your daemon hasn't finished syncing yet. Keep degwallet open, and wait until you are 0 days behind the current block, and for the daemon to print out a green message saying `Successfully synchronized with the DeroGold Network.`  
     You can also type `status` in the daemon and press enter to see the current height it's at.
 
 #### Q: I think I should have more money in my balance than it is showing, what should I do?
@@ -84,14 +84,14 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 ??? faq "Answer"
     * In degwallet, type `export_keys`, and save the view and spend key somewhere safe in case something goes wrong, if you haven't already.
 
-    *  Then, close and reopen zedwallet and DeroGoldd.
-    *  Type `reset` in zedwallet after reopening your wallet file.
+    *  Then, close and reopen degwallet and DeroGoldd.
+    *  Type `reset` in degwallet after reopening your wallet file.
     *  It should start resetting your wallet, but the progress might not be immediately obvious - wait a while, and it should start counting up the blocks and printing out your transactions as it gets to them.
 
 #### Q: How do I backup my wallet?
 
 ??? faq "Answer"
-    Open zedwallet and type `export_keys`.  
+    Open degwallet and type `export_keys`.  
     Save the view and spend key somewhere safe, and you can use them to reimport your wallet if you lose it.
 
 #### Q: My transactions are very slow
@@ -99,7 +99,7 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 ??? faq "Answer" 
     Try attemping a fusion transaction:
     
-    * Open up zedwallet, and type `optimize`, then press enter.
+    * Open up degwallet, and type `optimize`, then press enter.
     * It will confirm if you want to optimize your wallet; it will take a bit. If you're fine with that, type `Y` and press enter again.
     
     Your wallet is now being optimized. When it finishes, your transaction should be able to send
@@ -123,7 +123,7 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 #### Q: How can I view my balance?
 
 ??? faq "Answer"
-    If `DeroGoldd.exe` is fully synced, in zedwallet, simply type `balance`.
+    If `DeroGoldd.exe` is fully synced, in degwallet, simply type `balance`.
 
 #### Q: How long does it take to sync DeroGoldd.exe?
 
@@ -133,19 +133,19 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 #### Q: Can I speed up the syncing of the blockchain?
 
 ??? faq "Answer"
-    You can sync [with checkpoints](../guides/wallets/Using-checkpoints) (only with zedwallet) or use a [remote node](../guides/wallets/Using-remote-nodes)
+    You can sync [with checkpoints](../guides/wallets/Using-checkpoints) (only with degwallet) or use a [remote node](../guides/wallets/Using-remote-nodes)
 
 #### Q: Can I skip the syncing?
 
 ??? faq "Answer"
-    Yes, you can currently use a remote node with zedwallet, Nest wallet and WalletShell. The keys stay on your PC, so it's secure. Check [this guide](../guides/wallets/Using-remote-nodes) for more information. [Checkpoints](../guides/wallets/Using-checkpoints) are also an option if you're using zedwallet.
+    Yes, you can currently use a remote node with degwallet, Nest wallet and WalletShell. The keys stay on your PC, so it's secure. Check [this guide](../guides/wallets/Using-remote-nodes) for more information. [Checkpoints](../guides/wallets/Using-checkpoints) are also an option if you're using degwallet.
 
 #### Q: What does it mean if my balance is locked?
 
 ??? faq "Answer"
     This is a transfer which hasn't been confirmed by the network yet. It will move into your main balance shortly, generally after 3 minutes.
 
-#### Q: In zedwallet.exe, I get an error `Error: failed to save new wallet: boost::filesystem::unique__path: Keyset as registered is invalid`. How can I fix it?
+#### Q: In degwallet.exe, I get an error `Error: failed to save new wallet: boost::filesystem::unique__path: Keyset as registered is invalid`. How can I fix it?
 
 ??? faq "Answer"
     This is caused by some broken Windows crypto keys. In the address bar in Windows Explorer, type `%AppData%/Microsoft/Crypto/RSA/`.
@@ -342,7 +342,7 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 #### Q: Can I lower the 2% fee taken by XMR-Stak?
 
 ??? faq "Answer"
-    This is possible, however please note that these developers are independent from the TurtleCoin project and are doing some great work, so we would suggest leaving it as is.
+    This is possible, however please note that these developers are independent from the DeroGold project and are doing some great work, so we would suggest leaving it as is.
 
     If you do wish to change/remove the dev fee, you will have to compile XMR-Stak yourself, they have instructions to do this on their [GitHub](https://github.com/fireice-uk/XMR-Stak/blob/master/doc/compile), or you can check out the [Linux guide](../guides/mining/XMR-Stak-Linux-Guide#ubuntu-16-04)
 
@@ -403,7 +403,7 @@ Until you are fully synced, you won't be able to send transactions, and your bal
 #### Q: Can I view the balance of my wallet online?
 
 ??? faq "Answer"
-    Due to TurtleCoin being a cryptonote-based coin(private), this is not possible.
+    Due to DeroGold being a cryptonote-based coin(private), this is not possible.
 
     It should be possible in the future to allow users to give away just their Private View Key to view transactions, but this hasn't been implemented by anyone so far, and would allow that website to see every transaction that you make.
 
@@ -419,17 +419,10 @@ Until you are fully synced, you won't be able to send transactions, and your bal
     There are multiple ways to acquire DEGO, for example:
 
     * Mining - see [here](../guides/mining/Mining)
-    * Buying - DEGO is currently available on these exchanges: [TradeOgre](https://tradeogre.com/exchange/BTC-DEGO) and [TradeSatoshi](https://tradesatoshi.com/Exchange/?market=DEGO_BTC)
-    * Bounties - Bounties for developing DEGO software, spreading the word of DEGO, and many other things are often posted in the #bounties channel on [Discord][Discord_Link]. Check the pinned messages for current bounties.
-    * Tips - Turtles with often tip each other, especially if you make spicy memes in the `#memes` channel
-    * Rain - Good active Turtles get rained on, check out what the [RainBorg](../RainBorg-Wat-Dat) is to see how to use it.
-    * Faucet - Head over to the faucets-
-      * [madk's faucet](https://faucet.trtl.me/) - 10 DEGO, thrice a day
-      * [polar-it's faucet](https://turtlecoin-faucet.xhub.cloud/) - 20 DEGO, every 120 minutes
-      * [fipsi's faucet](https://trtlfaucet.de.cool/) - 100 DEGO, after every 500 turtles use it
-    
-      and enter your DEGO address.  
-      The amount you can receive is limited to share the DEGO for all. Thanks to @madk, @polar-it and @fipsi for creating them.
+    * Buying - DEGO is currently available on these exchanges: [Cratex](https://cratex.io/darkhak.php?pair=DEGO/USDT), [Exbitron](https://app.exbitron.com/exchange/?market=DEGO-USDT) and CEX in our Discord
+    * Bounties - Bounties for developing DEGO software, spreading the word of DEGO, and many other things are often posted in the #bounties channel on [Discord][https://discord.com/invite/JUMUzvh]. Check the pinned messages for current bounties.
+    * Tips - We use TipBot in our Discord where our members tip each other frequiently
+    * Rain - TipBot also rains DeroGold as a reward to our active users. Head over to our Discord to find out how ot use TipBot
 
 #### Q: Is there a web wallet?
 
